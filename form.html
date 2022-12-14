@@ -5,6 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            margin: auto;
+            padding: 15px;
+            background: aqua;
+            border-radius: 10px;
+            box-shadow: 0px 0px 41px -17px  red;
+        }
+        h1{
+            text-align: center;
+        }
+        input{
+            padding: 6px 2px;
+        }
+    </style>
 </head>
 <body>
     
@@ -16,12 +34,34 @@
 
     <form action="backend.js" method="post">
 
-        <input type="text" placeholder="Name"> <br>
-        <input type="email" placeholder="email"> <br>
-        <input type="date" placeholder="Date of birth"> <br>
-        <input type="number" placeholder="Mobile number"> <br>
+        <input type="text" placeholder="Name" required> <br>
+        <input type="email" placeholder="email" required> <br>
+        <input type="date" placeholder="Date of birth" > <br>
+        <input type="number" placeholder="Mobile number" required> <br>
+        <!-- <input type="range"> -->
        <textarea name="" id="" cols="30" rows="10"></textarea> <br>
-        <input type="submit" value="submit">
+
+        <!-- <label for="">Choose a gender : </label>
+        <input type="radio" name="gender"> Male 
+        <input type="radio" name="gender"> Female -->
+
+        <label for="">Choose your Subjects :</label>
+        <input type="checkbox" name="gender"> Maths 
+        <input type="checkbox" name="gender"> Chemistry
+        <input type="checkbox" name="gender"> Biology
+<br>
+        <select name="" id="">
+            <option value="">Select the Slot</option>
+            <option value="1">4pm - 5pm</option>
+            <option value="2">5pm - 6pm</option>
+            <option value="3">6pm - 7pm</option>
+        </select>
+        
+        
+
+
+
+      <br>  <input type="submit" value="submit">
 
 
 
