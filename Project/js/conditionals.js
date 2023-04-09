@@ -27,7 +27,7 @@ else{
 // User is going to enter the his mood , the weather 
 
 // 1. if mood is happy and weather is sunny then user is going to win 
-// 2. if mood is sad and weather is sunny then user is going to lose.
+// 2. if mood is sad and weather is rainy then user is going to lose.
 // 3. if mood id happy and weather is rainy then user is going to lose.
 // 4. if user id sad and weather is sunny then aslo user id going to win.
 
